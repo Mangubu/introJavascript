@@ -32,3 +32,13 @@ console.log(p_first.childNodes[1].nodeValue);
 console.log("Strong"+p_strong);
 console.log(p_strong.childNodes[0].nodeValue);
 
+//ajouter un élément dans HTML
+var element=document.createElement("p");
+//ajouter du contenu
+var contenu=document.createTextNode("Ajouter du contenu");
+//Ajouter mon contenu à mon element
+element.appendChild(contenu);
+//Ajoute l'element et son contenu dans le body de la page HTML
+document.body.appendChild(element);
+
+var target=document.getElementsByTagName("container");
