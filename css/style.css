@@ -24,3 +24,38 @@ p{
     margin: 10px auto;
     border: solid 1px #ccc;
 }
+
+#slideshow{
+    text-align: center;
+}
+
+#slideshow figure{
+    background-color: red;
+    height: 133px;
+    width: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#slideshow figure:first-child{
+    height: 400px;
+    width: 765px;
+    margin-bottom: 140px;
+}
+
+#slideshow figure figcaption{
+    float: right;
+    font-size: 10px;
+    font-style: italic;
+}
+
+#slideshow figure:first-child img{
+    height: auto;
+    width: 100%;
+}
+
+#slideshow figure img{
+    height: auto;
+    width: 100%;
+}
+

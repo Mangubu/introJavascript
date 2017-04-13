@@ -5,7 +5,7 @@ var title = String("Cours javascript");
 //création de variable en fonction des balises du fichier HTML
 var myTitle=document.getElementsByTagName("title")[0];
 var header_title=document.getElementsByTagName("h1")[0];
-var p_first=document.getElementsByTagName("p")[0];
+var p_first=document.getElementsByTagName("p")[0]; 
 var p_second=document.getElementsByTagName("p")[1];
 
 //ajoute le texte de la variable title dans le title de la page HTML
